@@ -6,9 +6,11 @@ This repository contains a comprehensive data analysis pipeline developed for th
 
 ## 🎯 Objectives
 
-* 📈 Analyse monthly trends and variations in crime counts.
-* 🔍 Identify patterns and anomalies across crime types.
-* 🚨 Highlight potential data quality issues and recommend further analytical steps.
+* Analyse monthly trends and variations in crime counts.
+* Identify patterns and anomalies across crime types.
+* Highlight potential data quality issues and recommend further analytical steps.
+
+![WhatsApp Image 2025-08-07 at 03 39 22_940455ec](https://github.com/user-attachments/assets/21704fd7-da70-4749-a13e-e0905181db88)
 
 ---
 
@@ -20,7 +22,7 @@ Street-level crime data provides valuable insights for law enforcement, local go
 
 #### 1️⃣ Data Collection and Loading
 
-* 📥 Programmatically loaded and combined monthly crime data from CSV files for scalable and reproducible analysis.
+* Programmatically loaded and combined monthly crime data from CSV files for scalable and reproducible analysis.
 
 #### 2️⃣ Data Cleaning and Preprocessing
 
@@ -34,12 +36,12 @@ Street-level crime data provides valuable insights for law enforcement, local go
 
 #### 3️⃣ Exploratory Data Analysis (EDA)
 
-* 📊 Initial exploration identified missing data, outliers, and key data quality concerns.
-* 📆 Monthly and categorical breakdown of crime data to identify trends.
+* Initial exploration identified missing data, outliers and key data quality concerns.
+* Monthly and categorical breakdown of crime data to identify trends.
 
 #### 4️⃣ Data Visualisation
 
-* 📈 Created clear, informative visuals including:
+* Created clear, informative visuals including:
 
   * Line charts for monthly crime trends.
   * Stacked bar charts for crime type distribution.
@@ -55,46 +57,40 @@ Street-level crime data provides valuable insights for law enforcement, local go
 
 ## 📌 Key Findings
 
-### 📅 Monthly Crime Trends
+### Monthly Crime Trends
 
-* 📉 Crime counts gradually rose from April, peaked in August and slightly decreased in September, aligning with easing COVID-19 restrictions and seasonal patterns.
+* Crime counts gradually rose from April, peaked in August and slightly decreased in September, aligning with easing COVID-19 restrictions and seasonal patterns.  
 
-![Monthly Trends](images/monthly_trends.png)
+### Crime Type Distribution
 
-### 🔎 Crime Type Distribution
-
-* 🚓 Most frequent crime types were:
+* Most frequent crime types were:
 
   * **Violence and Sexual Offences**
   * **Anti-Social Behaviour**
   * **Public Order Offences**
 
-![Crime Types](images/crime_types.png)
+### Crime Hotspots (LSOAs)
 
-### 📍 Crime Hotspots (LSOAs)
+* Highest crime densities observed in densely populated urban areas, notably Leeds and Bradford, indicating a potential focus for targeted interventions.  
 
-* 🏙️ Highest crime densities observed in densely populated urban areas, notably Leeds and Bradford, indicating a potential focus for targeted interventions.
+### Spatial Crime Density
 
-![Top LSOAs](images/top_lsoas.png)
-
-### 🗺️ Spatial Crime Density
-
-* 🔥 KDE heatmap highlighted high-density crime clusters in urban centres like Leeds, Bradford, Wakefield, Huddersfield and Halifax.
+* KDE heatmap highlighted high-density crime clusters in urban centres like Leeds, Bradford, Wakefield, Huddersfield and Halifax.
 
 ---
 
 ## ⚙️ Tools and Technologies
 
-* 🐍 **Languages:** Python
+* **Languages:** Python
 
-* 📦 **Libraries:**
+   **Libraries:**
 
   * pandas
   * numpy
   * matplotlib
   * seaborn
 
-* 💻 **Environment:**
+* **Environment:**
 
   * Jupyter Notebook
 
@@ -110,13 +106,13 @@ Street-level crime data provides valuable insights for law enforcement, local go
 
 ## 🚀 Recommendations for Further Analysis
 
-### 📌 Immediate Steps:
+### Immediate Steps:
 
 * Conduct detailed monthly analyses by crime type.
 * Analyse crime outcomes and resolution efficiency by location and type.
 * Further refine data quality checks and address missing or ambiguous entries.
 
-### 📌 Long-Term Goals:
+### Long-Term Goals:
 
 * Create interactive crime mapping tools for real-time analysis.
 * Develop predictive models to forecast future crime hotspots.
@@ -137,24 +133,24 @@ Follow instructions in [`data/README.txt`](data/README.txt) to structure data fo
 
 ## 💻 How to Run
 
-### 🛠️ Environment Setup
+### Environment Setup
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 🚦 Analysis Execution
+### Analysis Execution
 
-1. 📂 Open `crime_analysis.ipynb` using Jupyter Notebook.
-2. 🖱️ Execute notebook cells sequentially from data loading through visualisation outputs.
+1. Open `crime_analysis.ipynb` using Jupyter Notebook.
+2. Execute notebook cells sequentially from data loading through visualisation outputs.
 
 ---
 
 ## 🙌 Acknowledgements
 
-* 🏫 Leeds Institute for Data Analytics (LIDA)
-* 🏛️ University of Leeds (Visit the official [University of Leeds website](https://www.leeds.ac.uk)   
-* 🚔 UK Police Data Platform ([data.police.uk](https://data.police.uk))
+* Leeds Institute for Data Analytics (LIDA)
+* University of Leeds (Visit the official [University of Leeds website](https://www.leeds.ac.uk)   
+* UK Police Data Platform ([data.police.uk](https://data.police.uk))
 
 🙏 Special thanks to the data science and open-source communities.
 
@@ -163,7 +159,7 @@ pip install -r requirements.txt
 
 ## 📄 License
 
-📜 This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
